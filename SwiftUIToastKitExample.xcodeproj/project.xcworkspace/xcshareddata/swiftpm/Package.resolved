@@ -1,0 +1,15 @@
+{
+  "originHash" : "bf9e467bd66cb90a210a5473b707a63328b55a8395aca1a6fcb25fdc6be8a0c9",
+  "pins" : [
+    {
+      "identity" : "swiftuitoastkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gauravtakdev/SwiftUIToastKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8c48fad5e2e59eb8f18ce696e63ec66e25e03f7d"
+      }
+    }
+  ],
+  "version" : 3
+}
