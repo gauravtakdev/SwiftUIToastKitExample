@@ -26,7 +26,7 @@ struct ContentView: View {
                 toastManager.show(
                     message: "Something went wrong",
                     style: .error,
-                    position: .top
+                    position: .bottom
                 )
             }
 
@@ -34,16 +34,22 @@ struct ContentView: View {
                 toastManager.show(
                     message: "Please check your input!",
                     style: .warning,
-                    position: .center
+                    position: .bottom
                 )
             }
             
             Button("Info Toast (Center)") {
                 toastManager.show(
-                    message: "Thanks for your feedback.",
+                    message: "New update available.",
                     style: .info,
-                    position: .center
+                    position: .bottom
                 )
+            }
+            
+            Button("Queue Multiple Toasts") {
+                toastManager.show(message: "First message")
+                toastManager.show(message: "Second message", style: .success)
+                toastManager.show(message: "Third message", style: .error)
             }
         }
         .padding()
